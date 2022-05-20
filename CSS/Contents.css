@@ -1,19 +1,25 @@
 .style1 {
-	border-style: solid;
-	border-width: 1px;
-	background-color: #FFFFB3;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #ffffb3;
 }
 .style2 {
-	border: 1px solid #CC0000;
+  border: 1px solid #cc0000;
 }
 .style3 {
-	font-weight: bold;
-	border: 1px solid #CC0000;
+  font-weight: bold;
+  border: 1px solid #cc0000;
 }
 .style4 {
-	border: 1px solid #CC0000;
-	background-color: #FFFFB3;
+  border: 1px solid #cc0000;
+  background-color: #ffffb3;
 }
+body {
+  background-image: url(./yuyuko_body.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .titles {
   font-size: 44px;
 }
@@ -24,25 +30,308 @@
 }
 
 .miniTitles {
-    font-size: 30px;
-    font-weight: bold;
-    color: red;
-  }
-
-.textLinks{
-    font-weight: bold;
-    font-size: 22px;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
 }
 
-.text{
-    font-size: 16px;
+.textTitles {
+  font-weight: bold;
+  font-size: 24px;
 }
 
-p{
-    font-size: 18px;
+.footerText {
+  font-size: 16px;
 }
 
-a{
+p {
+  font-size: 18px;
+}
+
+span {
+  font-size: 18px;
+}
+
+a {
+  font-size: 22px;
   text-decoration: none;
   color: rgb(53, 53, 172);
+}
+
+.tableBody {
+  width: 70%;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+  border-spacing: 2%;
+  padding: 4%;
+}
+
+.divMarginCatalogue {
+  margin-left: 5%;
+}
+
+.divLineBreaker {
+  padding-bottom: 4%;
+}
+
+.divLineBreakerSubTitles {
+  padding-bottom: 2%;
+}
+
+.imageSizesOnTextLeftSide {
+  width: 34%;
+  float: left;
+  padding: 1%;
+}
+
+.imageSizesOnTextRightSide {
+  width: 34%;
+  float: right;
+  padding: 1%;
+}
+
+.imageVerticalReading {
+  width: 70%;
+  height: 90%;
+}
+
+.italicSubtitle {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1440px) {
+  .imageSizesOnTextLeftSide {
+    width: 38%;
+  }
+
+  .imageSizesOnTextRightSide {
+    width: 38%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .tableBody {
+    table-layout: fixed;
+    width: 80%;
+  }
+
+  .titles {
+    font-size: 42px;
+  }
+
+  .italicSubtitle {
+    font-size: 18px;
+  }
+
+  .subTitles {
+    font-size: 32px;
+  }
+
+  .miniTitles {
+    font-size: 28px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  .textTitles {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  .footerText {
+    font-size: 14px;
+  }
+
+  .imageVerticalReading {
+    width: 80%;
+    height: 95%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .imageSizesOnTextLeftSide {
+    width: 40%;
+  }
+
+  .imageSizesOnTextRightSide {
+    width: 40%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .tableBody {
+    table-layout: fixed;
+    width: 80%;
+  }
+
+  .titles {
+    font-size: 40px;
+  }
+
+  .subTitles {
+    font-size: 30px;
+  }
+
+  .miniTitles {
+    font-size: 28px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  .textTitles {
+    font-size: 22px;
+  }
+
+  .footerText {
+    font-size: 14px;
+  }
+
+  .imageVerticalReading {
+    width: 80%;
+    height: 95%;
+  }
+
+  .italicSubtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imageSizesOnTextLeftSide {
+    width: 44%;
+  }
+
+  .imageSizesOnTextRightSide {
+    width: 44%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .tableBody {
+    table-layout: fixed;
+    width: 90%;
+  }
+
+  .titles {
+    font-size: 34px;
+  }
+
+  .subTitles {
+    font-size: 26px;
+  }
+
+  .miniTitles {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  .textTitles {
+    font-size: 22px;
+  }
+
+  .footerText {
+    font-size: 14px;
+  }
+  .imageVerticalReading {
+    width: 75%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .imageSizesOnTextLeftSide {
+    width: 50%;
+  }
+
+  .imageSizesOnTextRightSide {
+    width: 50%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .textTitles {
+    font-size: 20px;
+  }
+
+  .italicSubtitle {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 14px;
+  }
+
+  .footerText {
+    font-size: 14px;
+  }
+
+  .tableBody {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .miniTitles {
+    font-size: 22px;
+  }
+
+  .subTitles {
+    font-size: 24px;
+  }
+
+  .titles {
+    font-size: 36px;
+  }
+  .imageVerticalReading {
+    width: 85%;
+    height: 100%;
+  }
 }
