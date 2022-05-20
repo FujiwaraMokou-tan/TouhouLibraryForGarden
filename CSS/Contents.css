@@ -93,7 +93,6 @@ a {
 
 .imageVerticalReading {
   width: 70%;
-  height: 90%;
 }
 
 .italicSubtitle {
@@ -162,7 +161,6 @@ a {
 
   .imageVerticalReading {
     width: 80%;
-    height: 95%;
   }
 }
 
@@ -218,7 +216,6 @@ a {
 
   .imageVerticalReading {
     width: 80%;
-    height: 95%;
   }
 
   .italicSubtitle {
@@ -276,12 +273,11 @@ a {
     font-size: 14px;
   }
   .imageVerticalReading {
-    width: 75%;
-    height: 90%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 520px) {
   .imageSizesOnTextLeftSide {
     width: 50%;
   }
@@ -335,7 +331,6 @@ a {
     font-size: 36px;
   }
   .imageVerticalReading {
-    width: 85%;
-    height: 100%;
+    width: 80%;
   }
 }
