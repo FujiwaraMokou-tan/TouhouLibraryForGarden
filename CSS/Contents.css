@@ -102,6 +102,10 @@ a {
   font-weight: bold;
 }
 
+.coverImg {
+  width: 90%;
+}
+
 @media screen and (max-width: 1440px) {
   .imageSizesOnTextLeftSide {
     width: 38%;
