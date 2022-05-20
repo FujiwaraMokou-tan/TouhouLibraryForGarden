@@ -4,14 +4,22 @@
   background-color: #ffffb3;
 }
 .style2 {
-  border: 1px solid #cc0000;
+  border: 2px solid #cc0000;
+  box-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 0px 0 #b9b9b9,
+    0 5px 0 rgba(125, 125, 125, 0.2), 0 6px 1px rgba(0, 0, 0, 0.2),
+    0 0 5px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.2),
+    0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.2),
+    0 0 4px white, 0 0px 3px white, 1px 1px 5px rgba(255, 155, 0, 0.37),
+    1px 1px 10px rgba(102, 60, 0, 0.5);
 }
 .style3 {
   font-weight: bold;
-  border: 1px solid #cc0000;
+  border: 2px solid #cc0000;
+  border-radius: 25px;
 }
 .style4 {
-  border: 1px solid #cc0000;
+  border: 2px solid #cc0000;
   background-color: #ffffb3;
 }
 body {
@@ -65,6 +73,12 @@ a {
   margin: auto;
   border-spacing: 2%;
   padding: 4%;
+  box-shadow: 0px 1px 0px #ccc, 0px 2px 0px #c9c9c9, 0px 3px 0px #bbb,
+    0px 4px 0px #b9b9b9, 0px 5px 0px #aaa, 0px 6px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1),
+    -8px 16px 16px rgba(0, 0, 0, 0.37), 0px 32px 32px rgba(0.6, 0, 0, 0.6),
+    64px 64px 64px rgba(0, 0, 0, 0.25);
 }
 
 .divMarginCatalogue {
@@ -92,7 +106,7 @@ a {
 }
 
 .imageVerticalReading {
-  width: 70%;
+  width: 100%;
 }
 
 .italicSubtitle {
@@ -103,6 +117,19 @@ a {
 
 .coverImg {
   width: 90%;
+}
+
+.coverImgVertical {
+  width: 35%;
+}
+
+.coverChapter {
+  width: 30%;
+}
+
+.numerals {
+  font-style: italic;
+  font-size: 26px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -160,7 +187,7 @@ a {
   }
 
   .imageVerticalReading {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -215,7 +242,7 @@ a {
   }
 
   .imageVerticalReading {
-    width: 80%;
+    width: 100%;
   }
 
   .italicSubtitle {
@@ -273,7 +300,7 @@ a {
     font-size: 14px;
   }
   .imageVerticalReading {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -331,6 +358,6 @@ a {
     font-size: 36px;
   }
   .imageVerticalReading {
-    width: 80%;
+    width: 100%;
   }
 }
