@@ -1,100 +1,104 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-  <head>
-    <title>Touhou Library</title>
-    <meta name="description" content="Touhou Library" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="./CSS/Contents.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./favicon.png">
-  </head>
 
-  <body>
-    <table cellpadding="25" cellspacing="2" class="style4 tableBody">
-      <colgroup>
-        <col />
-      </colgroup>
-      <tr>
-        <td align="center" class="style3 titles">Touhou Library</td>
-      </tr>
-      <tr>
-        <td>
-          <h4 align="center">
-            <img
-              alt="Cover"
-              class="coverImg"
-              src="./Contents/Touhou_Library.png"
-              align="middle"
-            />
-          </h4>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div class="divLineBreakerSubTitles"></div>
+<head>
+  <title>Touhou Library</title>
+  <meta name="description" content="Touhou Library" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./CSS/Contents.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./CSS/IndexCatalog.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./CSS/ButtonSelect.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./favicon.png">
+  <script src="./Scripts/CatalogueScript.js"></script>
+</head>
 
-			<hr style="width: 100%; height: 2px;"></div>
-          <div style="text-align: center">
-            <span class="mw-headline subTitles"> Table of Contents</span>
-          </div>
-
-          <div class="divLineBreaker"></div>
-
-          <span class="mw-headline miniTitles">Artbooks</span>
-          <div style="margin-left: 5%">
-            <div class="divLineBreakerSubTitles"></div>
-            <div style="text-align: left">
-              <p>
-                <a
-                  class="textTitles"
-                  href="./Bohemian Archive in Japanese Red.html"
-                  >Bohemian Archive in Japanese Red</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <div class="divLineBreaker"></div>
-
-          <span class="mw-headline miniTitles">Compiled Stories</span>
-          <div style="margin-left: 5%">
-            <div class="divLineBreakerSubTitles"></div>
-            <div style="text-align: left">
-              <p>
-                <a
-                  class="textTitles"
-                  href="./Curiosities of Lotus Asia/Curiosities of Lotus Asia.html"
-                  >Curiosities of Lotus Asia</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <div class="divLineBreaker"></div>
-
-          <span class="mw-headline miniTitles">Comics</span>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <div class="divLineBreakerSubTitles"></div>
-
-			<hr style="width: 100%; height: 2px;"></div>
-          <div align="center">
-            <span class="subTitles">Touhou Library</span>
-            <p>
-              This website aims to contain all the works produced by ZUN and the
-              many artists and illustrators who aided him in producing such
-              works.
+<body >
+  <table cellpadding="25" cellspacing="2" class="style4 tableBody" >
+    <colgroup>
+      <col />
+    </colgroup>
+    <tr>
+      <td align="center" class="style3 titles">Touhou Library</td>
+    </tr>
+    <tr>
+      <td>
+        <h4 align="center">
+          <img alt="Cover" class="coverImg" src="./Contents/Touhou_Library.png" align="middle" />
+        </h4>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="divLineBreakerSubTitles"></div>
+        <hr style="width: 100%; height: 2px;">
+        <div class="divLineBreakerSubTitles"></div>
+        <div id="divcatalogueHolder">
+          <div id="artbookCatalogue">
+            <img onclick="closePopup()" style=" cursor: pointer; width: 10%; position:relative; left: 40%; top: 10%" src="./specialIcons/close.png">
+<p>
+              <a class="textTitles customFontClass" href="./Bohemian Archive in Japanese Red.html">Bohemian Archive in
+                Japanese Red</a>
             </p>
           </div>
-        </td>
-      </tr>
-    </table>
-  </body>
+
+
+          <div id="storiesCatalogue">
+            
+              <img onclick="closePopup()" style=" cursor: pointer; width: 10%; position:relative; left: 40%; top: 10%" src="./specialIcons/close.png">
+              <p><a class="textTitles customFontClass"
+                href="./Curiosities of Lotus Asia/Curiosities of Lotus Asia.html">Curiosities of
+                Lotus Asia</a>
+            </p>
+          </div>
+          <div id="comicsCatalogue">
+            <p></p>
+          </div>
+        </div>
+        <div class="indexCatalog">
+          <div class="indexItems">
+            <div> <a onclick="showArtbooks()" style="cursor: pointer;"><img class="indexImage"
+                  src="./specialIcons/Artbook cover.jpg"></a></div>
+            <div>
+              <p class="makeshiftFigcaption">Artbooks</p>
+            </div>
+          </div>
+          <div class="indexItems">
+            <div><a onclick="showStories()" style="cursor: pointer;"><img class="indexImage"
+                  src="./specialIcons/CompiledStories2.png"></a></div>
+            <div>
+              <p class="makeshiftFigcaption">Compiled Stories</p>
+            </div>
+
+          </div>
+          <div class="indexItems">
+            <div><img class="indexImage" src="./specialIcons/Comic_Cover2.jpg"></div>
+            <div>
+              <p class="makeshiftFigcaption">Comics</p>
+            </div>
+          </div>
+        </div>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="divLineBreakerSubTitles"></div>
+
+        <hr style="width: 100%; height: 2px;">
+        </div>
+        <div align="center">
+          <span class="subTitles">Touhou Library</span>
+          <p>
+            This website aims to contain all the works produced by ZUN and the
+            many artists and illustrators who aided him in producing such
+            works.
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+
 </html>
