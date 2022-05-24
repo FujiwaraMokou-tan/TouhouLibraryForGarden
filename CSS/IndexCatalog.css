@@ -1,0 +1,72 @@
+.indexCatalog {
+  display: flex;
+  justify-content: center;
+}
+
+.indexItems {
+  display: block;
+  width: 30%;
+}
+
+.indexImage {
+  border-style: solid;
+  width: calc(90% - 8px);
+  border-width: 4px;
+  border-color: rgb(187, 159, 0);
+  border-radius: 5%;
+}
+
+.makeshiftFigcaption {
+  text-align: center;
+  font-family: "CustomFont2";
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#divcatalogueHolder {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#artbookCatalogue {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  background-image: url(../specialIcons/popup.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+#storiesCatalogue {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  background-image: url(../specialIcons/popup.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+#comicsCatalogue {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  background-image: url(../specialIcons/popup.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
