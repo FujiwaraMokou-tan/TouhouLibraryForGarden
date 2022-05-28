@@ -71,6 +71,11 @@ a {
   color: rgb(53, 53, 172);
 }
 
+.textCharacterAnalysis {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .tableBody {
   width: 70%;
   text-align: left;
@@ -93,8 +98,27 @@ a {
   margin: auto;
 }
 
+.tableBody3 {
+  width: 53%;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+  border-spacing: 2%;
+  padding: 4%;
+  box-shadow: 0px 1px 0px #ccc, 0px 2px 0px #c9c9c9, 0px 3px 0px #bbb,
+    0px 4px 0px #b9b9b9, 0px 5px 0px #aaa, 0px 6px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1),
+    -8px 16px 16px rgba(0, 0, 0, 0.37), 0px 32px 32px rgba(0.6, 0, 0, 0.6),
+    64px 64px 64px rgba(0, 0, 0, 0.25);
+}
+
 .divMarginCatalogue {
   margin-left: 5%;
+}
+
+.divMarginCatalogue2 {
+  margin-left: 1%;
 }
 
 .divLineBreaker {
@@ -110,13 +134,13 @@ a {
 }
 
 .imageSizesOnTextLeftSide {
-  width: 34%;
+  width: 38%;
   float: left;
   padding: 1%;
 }
 
 .imageSizesOnTextRightSide {
-  width: 34%;
+  width: 38%;
   float: right;
   padding: 1%;
 }
@@ -140,7 +164,25 @@ a {
 }
 
 .coverChapter {
-  width: 30%;
+  width: 44%;
+  border: 2px solid #000000;
+  box-shadow: 0px 0px 0px #ccc, 0px 0px 0px #c9c9c9, 0px 0px 0px #bbb,
+    0px 0px 0px #b9b9b9, 0px 0px 0px #aaa, 0px 0px 0px rgba(0, 0, 0, 0.1),
+    0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1),
+    -8px 8px 8px rgba(0, 0, 0, 0.37), 0px 16px 16px rgba(0.6, 0, 0, 0.6),
+    32px 32px 32px rgba(0, 0, 0, 0.25);
+}
+
+.coverChapter2 {
+  width: 44%;
+  border: 2px solid #000000;
+  box-shadow: 0px 0px 0px #ccc, 0px 0px 0px #c9c9c9, 0px 0px 0px #bbb,
+    0px 0px 0px #b9b9b9, 0px 0px 0px #aaa, 0px 0px 0px rgba(0, 0, 0, 0.1),
+    0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 3px 5px rgba(0, 0, 0, 0.2), -4px 8px 8px rgba(0, 0, 0, 0.1),
+    -8px 8px 8px rgba(0, 0, 0, 0.37), 0px 16px 16px rgba(0.6, 0, 0, 0.6),
+    32px 32px 32px rgba(0, 0, 0, 0.25);
 }
 
 .numerals {
@@ -166,6 +208,11 @@ a {
     width: 80%;
   }
 
+  .tableBody3 {
+    table-layout: fixed;
+    width: 70%;
+  }
+
   .titles {
     font-size: 42px;
   }
@@ -183,6 +230,10 @@ a {
   }
 
   a {
+    font-size: 18px;
+  }
+
+  .textCharacterAnalysis {
     font-size: 18px;
   }
 
@@ -229,6 +280,11 @@ a {
     width: 80%;
   }
 
+  .tableBody3 {
+    table-layout: fixed;
+    width: 80%;
+  }
+
   .titles {
     font-size: 40px;
   }
@@ -242,6 +298,10 @@ a {
   }
 
   a {
+    font-size: 18px;
+  }
+
+  .textCharacterAnalysis {
     font-size: 18px;
   }
 
@@ -291,6 +351,11 @@ a {
     width: 90%;
   }
 
+  .tableBody3 {
+    table-layout: fixed;
+    width: 90%;
+  }
+
   .titles {
     font-size: 34px;
   }
@@ -304,6 +369,10 @@ a {
   }
 
   a {
+    font-size: 16px;
+  }
+
+  .textCharacterAnalysis {
     font-size: 16px;
   }
 
@@ -363,11 +432,20 @@ a {
     font-size: 14px;
   }
 
+  .textCharacterAnalysis {
+    font-size: 14px;
+  }
+
   .footerText {
     font-size: 14px;
   }
 
   .tableBody {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .tableBody3 {
     table-layout: fixed;
     width: 100%;
   }

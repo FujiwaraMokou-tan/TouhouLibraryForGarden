@@ -19,7 +19,7 @@
 .customFontClass {
   justify-content: right;
   font-family: "CustomFont";
-  font-size: 24px;
+  font-size: 20px;
 }
 
 @font-face {
@@ -59,5 +59,29 @@
   40%,
   60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .customFontClass {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .customFontClass {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customFontClass {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .customFontClass {
+    font-size: 12px;
   }
 }
