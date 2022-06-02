@@ -190,6 +190,10 @@ a {
   font-size: 26px;
 }
 
+.indexButton {
+  display: none;
+}
+
 @media screen and (max-width: 1440px) {
   .imageSizesOnTextLeftSide {
     width: 38%;
