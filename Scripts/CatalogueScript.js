@@ -18,6 +18,7 @@ function closePopup() {
 
 var senseSpeed = 5;
 var previousScroll = 0;
+$("div.indexButton").hide();
 $(window).scroll(function (event) {
   if ($(this).width() < 522) {
     var scroller = $(this).scrollTop();
