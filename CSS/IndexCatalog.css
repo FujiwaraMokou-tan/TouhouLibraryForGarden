@@ -113,23 +113,117 @@
 
 .flexItem {
   width: 100%;
+  overflow-y: auto;
 }
 
 .scroll {
   overflow: auto;
 }
 
-@media screen and (max-width: 521px) {
+@media screen and (max-width: 1440px) {
+  #artbookCatalogue {
+    width: 80%;
+    height: 75%;
+  }
+  #storiesCatalogue {
+    width: 80%;
+    height: 75%;
+  }
+  #comicsCatalogue {
+    width: 80%;
+    height: 75%;
+  }
+  #interviewCatalogue {
+    width: 80%;
+    height: 75%;
+  }
+
+  #cdCatalogue {
+    width: 80%;
+    height: 75%;
+  }
+  .makeshiftFigcaption {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #artbookCatalogue {
+    width: 80%;
+    height: 65%;
+  }
+  #storiesCatalogue {
+    width: 80%;
+    height: 65%;
+  }
+  #comicsCatalogue {
+    width: 80%;
+    height: 65%;
+  }
+  #interviewCatalogue {
+    width: 80%;
+    height: 65%;
+  }
+
+  #cdCatalogue {
+    width: 80%;
+    height: 65%;
+  }
+  .makeshiftFigcaption {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   #artbookCatalogue {
     width: 90%;
-    height: 50%;
+    height: 58%;
   }
   #storiesCatalogue {
     width: 90%;
-    height: 50%;
+    height: 58%;
   }
   #comicsCatalogue {
     width: 90%;
+    height: 58%;
+  }
+  #interviewCatalogue {
+    width: 90%;
+    height: 58%;
+  }
+
+  #cdCatalogue {
+    width: 90%;
+    height: 58%;
+  }
+  .makeshiftFigcaption {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  #artbookCatalogue {
+    width: 95%;
     height: 50%;
+  }
+  #storiesCatalogue {
+    width: 95%;
+    height: 50%;
+  }
+  #comicsCatalogue {
+    width: 95%;
+    height: 50%;
+  }
+  #interviewCatalogue {
+    width: 95%;
+    height: 50%;
+  }
+
+  #cdCatalogue {
+    width: 95%;
+    height: 50%;
+  }
+  .makeshiftFigcaption {
+    font-size: 12px;
   }
 }
