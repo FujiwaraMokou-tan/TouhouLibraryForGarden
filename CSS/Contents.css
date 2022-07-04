@@ -50,7 +50,7 @@ body {
 
 .textTitles {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .footerText {
@@ -192,6 +192,14 @@ a {
 
 .indexButton {
   display: none;
+}
+
+.indexButton2 {
+  display: inline;
+  position: fixed;
+  width: 8%;
+  top: 0%;
+  right: 0%;
 }
 
 @media screen and (max-width: 1440px) {
@@ -401,6 +409,9 @@ a {
   .tableBody2 {
     width: 80%;
   }
+  .indexButton2 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 521px) {
@@ -470,5 +481,9 @@ a {
   }
   .tableBody2 {
     width: 97%;
+  }
+
+  .indexButton2 {
+    display: none;
   }
 }

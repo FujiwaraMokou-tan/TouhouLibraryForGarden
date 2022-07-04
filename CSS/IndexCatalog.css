@@ -1,11 +1,15 @@
-.indexCatalog {
-  display: flex;
-  justify-content: center;
+#indexCatalog {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 5%;
+  /*text-align: center;*/
 }
 
 .indexItems {
-  display: block;
-  width: 30%;
+  display: inline-block;
+  width: 100%;
 }
 
 .indexImage {
@@ -34,9 +38,9 @@
   position: fixed;
   z-index: 1;
   top: 25%;
-  text-align: center;
+
   width: 50%;
-  height: 50%;
+  height: 60%;
   background-image: url(../specialIcons/popup.png);
   background-repeat: no-repeat;
   background-attachment: local;
@@ -48,9 +52,9 @@
   position: fixed;
   z-index: 1;
   top: 25%;
-  text-align: center;
+
   width: 50%;
-  height: 50%;
+  height: 60%;
   background-image: url(../specialIcons/popup.png);
   background-repeat: no-repeat;
   background-attachment: local;
@@ -62,11 +66,70 @@
   position: fixed;
   z-index: 1;
   top: 25%;
-  text-align: center;
+
   width: 50%;
-  height: 50%;
+  height: 60%;
   background-image: url(../specialIcons/popup.png);
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: 100% 100%;
+}
+
+#interviewCatalogue {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+
+  width: 50%;
+  height: 60%;
+  background-image: url(../specialIcons/popup.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+#cdCatalogue {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+
+  width: 50%;
+  height: 60%;
+  background-image: url(../specialIcons/popup.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100% 100%;
+}
+
+.paddingText {
+  padding-left: 10%;
+}
+
+.paddingText2 {
+  padding-left: 4%;
+}
+
+.flexItem {
+  width: 100%;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+@media screen and (max-width: 521px) {
+  #artbookCatalogue {
+    width: 90%;
+    height: 50%;
+  }
+  #storiesCatalogue {
+    width: 90%;
+    height: 50%;
+  }
+  #comicsCatalogue {
+    width: 90%;
+    height: 50%;
+  }
 }
